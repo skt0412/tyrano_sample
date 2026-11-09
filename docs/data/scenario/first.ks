@@ -1,23 +1,18 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="二度寝の誘惑"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「朝７時、目覚まし時計が鳴り響いた。」[l][r]
 
-メロスは激怒した。[l][r]
+強烈な眠気に襲われている。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+どうする？[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →二度寝する [endlink][r]
+[link target=*tag_getup] →気合で起きる [endlink][r]
 [s]
 
 *tag_sleep
@@ -26,21 +21,21 @@
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+気づけば昼の13時だった。[l][r]
+実験にはもう間に合わない。[r]
 
-【 BAD END 】[l][cm]
+【 留年 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_getup
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+カーテンを開けて朝日を浴びた。[l][r]
+今日も最高の1日が始まる。[l][r]
 
-【 GOOD END 】[l][cm]
+【 最高 】[l][cm]
 
 [jump target=*start]
